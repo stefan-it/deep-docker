@@ -27,10 +27,11 @@ Currently, the following `Dockerfile`s exist:
 ## Keras
 
 The `Dockerfile` for *Keras* uses *CUDA* in version 9.0 and *cudnn* in version
-7. Thus, *TensorFlow* in version 1.5 can be used in combination with *Keras*.
+7. Thus, *TensorFlow* in version 1.8 can be used in combination with *Keras*.
 
 Other useful libraries are also installed:
 
+* `keras-contribu`
 * `scikit-learn`
 * `h5py`
 * `gensim`
