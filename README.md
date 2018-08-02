@@ -36,3 +36,20 @@ Other useful libraries are also installed:
 * `h5py`
 * `gensim`
 * `pandas`
+
+## `pipenv`
+
+The `Dockerfile` for `pipenv` and `pyenv` uses *CUDA* in version 9.0.
+
+Here's a small `pyenv` example that installs Python 3.7:
+
+```bash
+root@5bc18bc97c62:/# pyenv install 3.7.0
+Downloading Python-3.7.0.tar.xz...
+-> https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tar.xz
+Installing Python-3.7.0...
+Installed Python-3.7.0 to /.pyenv/versions/3.7.0
+root@5bc18bc97c62:/# pyenv global 3.7.0
+root@5bc18bc97c62:/# python --version
+Python 3.7.0
+```
