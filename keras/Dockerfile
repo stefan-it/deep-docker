@@ -1,4 +1,4 @@
-FROM nvidia/cuda:9.0-cudnn7-devel
+FROM nvidia/cuda:10.0-cudnn7-devel
 
 RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y locales \
     graphviz python3-pip git-core
