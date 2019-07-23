@@ -26,7 +26,7 @@ Currently, the following `Dockerfile`s exist:
 
 ## Keras
 
-The `Dockerfile` for *Keras* uses *CUDA* in version 9.0 and *cudnn* in version
+The `Dockerfile` for *Keras* uses *CUDA* in version 10.0 and *cudnn* in version
 7. Thus, *TensorFlow* in version 1.8 can be used in combination with *Keras*.
 
 Other useful libraries are also installed:
@@ -39,7 +39,7 @@ Other useful libraries are also installed:
 
 ## `pipenv`
 
-The `Dockerfile` for `pipenv` and `pyenv` uses *CUDA* in version 9.0.
+The `Dockerfile` for `pipenv` and `pyenv` uses *CUDA* in version 10.0.
 
 Here's a small `pyenv` example that installs Python 3.7:
 
@@ -53,3 +53,7 @@ root@5bc18bc97c62:/# pyenv global 3.7.0
 root@5bc18bc97c62:/# python --version
 Python 3.7.0
 ```
+
+## `pytorch`
+
+The `Dockerfile` for `pytorch` 1.1.0 uses *CUDA* in version 10.1.
